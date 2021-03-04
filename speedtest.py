@@ -18,6 +18,7 @@ print(packetloss)
 ping = ping.group(1)
 download = download.group(1)
 upload = upload.group(1)
+packetloss = packetloss.group(1)
 
 if packetloss != "Not":
     packetloss = packetloss.group(1)
